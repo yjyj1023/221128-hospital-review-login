@@ -34,4 +34,9 @@ public class UserService {
                 .email(savedUser.getEmailAddress())
                 .build();
     }
+
+    public String login(String userName, String password) {
+
+        return "";
+    }
 }
